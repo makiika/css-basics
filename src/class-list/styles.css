@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.btn {
+    background-color: aqua;
+    opacity: 0.3;
+    padding: 10px 15px;
+    font-size: inherit;
+    border: none;
+    border-radius: 5rem;
+    transition: all 2s ease-in;
+}
+.btn:hover {
+    opacity: 1;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ml {
+    margin-left: 4rem;
+}
+.mb {
+    margin-bottom: 6rem;
+}
+
+.mt {
+    margin-top: 6rem;
+}
+
+.green-text {
+    color: green;
+}
+
+.red-text {
+    color: red;
+}
+
+.blue-text {
+    color: rgb(233, 218, 224);
+}
