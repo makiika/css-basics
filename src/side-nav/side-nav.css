@@ -1,0 +1,30 @@
+.side-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    min-width: 10%;
+    padding-top: 2rem;
+    transform: translateX(0%);
+    transition:all .2s ease-out;
+}
+
+.side-nav-hidde {
+    transform: translateX(-100%);
+}
+.menu {
+    width: 100%;
+}
+.menu-item {
+    padding: 1.2em 5px;
+    transition:all 0.3s ease-in;
+}
+
+.menu-item:hover {
+    background-color: rgb(82, 78, 82);
+}
+
+.menu-item a {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
